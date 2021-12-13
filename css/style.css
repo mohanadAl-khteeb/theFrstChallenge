@@ -1,0 +1,91 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 20px rgb(0 0 0 / 20%);
+   
+}
+.card div {
+    text-align: left;
+}
+.card .card-image {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+.card .card-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-content{
+    color: hsl(0, 0%, 100%);
+}
+.card-content h3 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.card-content h3 a:hover{
+color: hsl(178, 100%, 50%);
+}
+.card-content p{
+    color :hsl(215, 51%, 70%);
+    font-weight: 500;
+}
+.time-content{
+    display: flex;
+    justify-content: space-between;
+}
+.time-content .time-content-left{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.time-content .time-content-left div{
+    color: hsl(178, 100%, 50%);
+    margin-left: 5px;
+}
+.time-content .time-content-right{
+ display: flex;   
+}
+.time-content .time-content-right div{
+   color: hsl(215, 51%, 70%);
+   margin-left: 5px;
+}
+.the-end{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+.the-end .avatar{
+    border-radius: 50%;
+}
+.the-end .avatar img{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px white solid;
+}
+.the-end .creator{
+   margin: 8px 0 0 15px;
+   color:hsl(215, 51%, 70%) ;
+}
+.the-end .creator a{
+    text-decoration: none;
+    color: rgb(211, 209, 209);
+    cursor: pointer;
+}
+.the-end .creator a:hover{
+ color: hsl(178, 100%, 50%);
+}
